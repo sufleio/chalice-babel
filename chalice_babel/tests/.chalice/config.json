@@ -1,0 +1,1 @@
+{"version": "2.0", "app_name": "chalice_package_test", "stages": {"dev": {"api_gateway_stage": "api"}}}
