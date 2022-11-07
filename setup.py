@@ -8,7 +8,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as readme:
 
 setup(
     name="chalice_babel",
-    version="1.0.0",
+    version="1.1.0",
     author="Sufle",
     author_email="info@sufle.io",
     description="Chalice Babel Package",
@@ -23,6 +23,7 @@ setup(
         "chalice>=1.26.6",
         "Jinja2>=3.1.2",
         "pytz>=2022.5",
+        "Werkzeug>=2.2.2",
     ],
     extras_require={
         "dev": [

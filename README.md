@@ -119,8 +119,6 @@ Thursday, March 5, 1987 5:12:00 PM World (GMT) Time
 >>> format_datetime(datetime(1987, 3, 5, 17, 12), 'dd mm yyy')
 05 12 1987
 
->>> format_datetime(datetime(1987, 3, 5, 17, 12), 'dd mm yyyy')
-05 12 1987
 ```
 
 ## Translating Application
@@ -140,7 +138,7 @@ ngettext(u'%(num)s Apple', u'%(num)s Apples', number_of_apples)
 If you want to evaluate strings translation you can use **lazy_gettext()** function.
 
 After mark all strings you want to translate it is time to create special template file called `.pot` that contains all the translated strings. 
-Before the creating pot file you need to define `babel.cfg` configuration file next to your `appy.py`, which is necessary to  use `pybabel` commands.
+Before the creating pot file you need to define `babel.cfg` configuration file next to your `app.py`, which is necessary to  use `pybabel` commands.
 
 
 ``` python
