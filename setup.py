@@ -5,10 +5,11 @@ from setuptools import find_packages, setup
 with open(os.path.join(os.path.dirname(__file__), "README.md")) as readme:
     README = readme.read()
 
+VERSION = '{{PACKAGE_VERSION}}'
 
 setup(
     name="chalice_babel",
-    version="1.1.0",
+    version=VERSION,
     author="Sufle",
     author_email="info@sufle.io",
     description="Chalice Babel Package",
